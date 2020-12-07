@@ -1,24 +1,23 @@
-# README
+# PROJETO MACHINE RENTAL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## PROBLEMA
 
-Things you may want to cover:
+Robson comprou uma máquina portátil e moderna para limpar estofados e tapetes.
+Seu modelo de negócio é ganhar dinheiro alugando a máquina por R$ 100,00 a diária.
+Ele entrega às 10:00 da manhã do primeiro dia da diária e busca às 08:00 no último dia.
+Trabalha todos os dias, fim de semana e feriados.
+O negócio está crescendo, e agora ele precisa de um sistema para controlar as reservas.
 
-* Ruby version
+## ETAPAS PARA RESOLUÇÃO DO PROBLEMA
 
-* System dependencies
+- [x]  Criar projeto
+- [x]  Iniciar Git e dar primeiro commit
+- [x]  Colocar as etapas para a concretização do projeto no Read.me
+- [x]  Configurações Iniciais (rspec)
+- [x]  Criar repositorio GitHub e subir projeto
+- [ ]  Relembrar como funciona datas em ruby
+- [ ]  Criar testes para Verificar Data Disponível
+- [ ]  Fazer os testes passarem
+- [ ]  Criar testes para Agendamento da maquina
+- [ ]  Fazer os testes passarem
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
