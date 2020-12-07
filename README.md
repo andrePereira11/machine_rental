@@ -15,9 +15,22 @@ O negócio está crescendo, e agora ele precisa de um sistema para controlar as 
 - [x]  Colocar as etapas para a concretização do projeto no Read.me
 - [x]  Configurações Iniciais (rspec)
 - [x]  Criar repositorio GitHub e subir projeto
-- [ ]  Relembrar como funciona datas em ruby
-- [ ]  Criar testes para Verificar Data Disponível
-- [ ]  Fazer os testes passarem
-- [ ]  Criar testes para Agendamento da maquina
-- [ ]  Fazer os testes passarem
+- [x]  Relembrar como funciona datas em ruby
+
+- Testes
+  - [x]  Criar testes para Agendamento da maquina
+  - [x]  Fazer os testes passarem
+  - [x]  Refatorar código
+  - [ ]  Criar testes para validar metodo que Verifica Data Disponível
+  - [ ]  Fazer os testes passarem
+  - [ ]  Refatorar código
+
+
+- Melhorias
+  *  Configurar Bootstrap
+  *  Implementar FactoryBot para melhoria dos testes
+  *  Criar teste BDD com capybara 
+  *  Fazer testes BDD passarem
+  *  Arrumar estética visual com bootstrap
+
 
