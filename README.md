@@ -21,9 +21,9 @@ O negócio está crescendo, e agora ele precisa de um sistema para controlar as 
   - [x]  Criar testes para Agendamento da maquina
   - [x]  Fazer os testes passarem
   - [x]  Refatorar código
-  - [ ]  Criar testes para validar metodo que Verifica Data Disponível
-  - [ ]  Fazer os testes passarem
-  - [ ]  Refatorar código
+  - [x]  Criar testes para validar metodo que Verifica Data Disponível
+  - [x]  Fazer os testes passarem
+  - [x]  Refatorar código
 
 
 - Melhorias
