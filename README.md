@@ -1,5 +1,7 @@
 # PROJETO MACHINE RENTAL
 
+![technologies](https://github.com/andrePereira11/machine_rental/blob/master/Neon%20Strings%20Design%20Studio.png)
+
 ## PROBLEMA
 
 Robson comprou uma máquina portátil e moderna para limpar estofados e tapetes.
