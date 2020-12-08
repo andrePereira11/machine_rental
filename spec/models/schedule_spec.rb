@@ -6,9 +6,11 @@ RSpec.describe Schedule, type: :model do
       schedule = Schedule.create(name:'Andre',initial_date:Date.current + 1, number_of_days:3)
       schedule.generate_dates
 
-      #expect(schedule).to be_valid
       expect(schedule.number_of_days).to be_a_kind_of(Integer)
       expect(schedule.number_of_days).to be > 0
+      expect(schedule.calendar_days[0].my_date).to eq Date.current + 1
+      expect(schedule.calendar_days[1].my_date).to eq Date.current + 2
+      expect(schedule.calendar_days[2].my_date).to eq Date.current + 3
     end
 
     it 'checks if date is less than or equal to today' do

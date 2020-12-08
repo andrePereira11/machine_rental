@@ -20,10 +20,10 @@ class Schedule < ApplicationRecord
 
   def check_dates
     if CalendarDay.availability(self.initial_date,self.number_of_days)
-      return true
+      true
     else
       errors.add(:initial_date, "unavailable dates")
-      return false
+      false
     end
   end
 

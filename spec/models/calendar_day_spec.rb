@@ -7,4 +7,10 @@ RSpec.describe CalendarDay, type: :model do
 
     expect(schedule.calendar_days[0].my_date).to eq Date.current + 1
   end
+
+  it 'check if number is less than or equal to 0' do
+    day = CalendarDay.availability(Date.current + 1, -3)
+
+    expect(day).to be false
+  end
 end

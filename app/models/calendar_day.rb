@@ -8,6 +8,7 @@ class CalendarDay < ApplicationRecord
     number.times do
       #byebug
       if CalendarDay.find_by(my_date: date)
+      #if CalendarDay.where(["my_date LIKE ?", "%#{date}%"]) != []
         return false
       else
         date += 1
